@@ -1,0 +1,22 @@
+station_id,station_name,date,temperature_c,precipitation_mm,visibility_km,wind_speed_kmph,weather_condition,relative_humidity
+station_a,Mumbai Central,2024-01-01 08:00:00,28.5,0,10,12,clear,65
+station_a,Mumbai Central,2024-01-01 12:00:00,32.1,0,15,15,clear,58
+station_a,Mumbai Central,2024-01-01 16:00:00,30.8,2,8,20,rain,70
+station_b,Surat,2024-01-01 08:00:00,26.8,0,12,10,clear,68
+station_b,Surat,2024-01-01 12:00:00,30.5,0,15,12,clear,60
+station_b,Surat,2024-01-01 16:00:00,29.2,1,10,18,rain,65
+station_c,Vadodara,2024-01-01 08:00:00,25.6,0,15,8,clear,62
+station_c,Vadodara,2024-01-01 12:00:00,29.8,0,20,10,clear,55
+station_c,Vadodara,2024-01-01 16:00:00,28.4,0,18,15,cloudy,60
+station_d,Ahmedabad,2024-01-01 08:00:00,24.2,0,20,6,clear,58
+station_d,Ahmedabad,2024-01-01 12:00:00,28.7,0,25,8,clear,50
+station_d,Ahmedabad,2024-01-01 16:00:00,27.3,0,22,12,clear,55
+station_e,Ratlam,2024-01-01 08:00:00,22.8,0,8,5,fog,75
+station_e,Ratlam,2024-01-01 12:00:00,27.5,0,15,8,clear,60
+station_e,Ratlam,2024-01-01 16:00:00,26.1,0,12,10,clear,65
+station_f,Kota,2024-01-01 08:00:00,21.5,0,10,4,fog,72
+station_f,Kota,2024-01-01 12:00:00,26.8,0,18,6,clear,58
+station_f,Kota,2024-01-01 16:00:00,25.2,0,15,8,clear,62
+station_g,Delhi,2024-01-01 08:00:00,18.7,0,5,3,fog,80
+station_g,Delhi,2024-01-01 12:00:00,24.5,0,10,5,clear,65
+station_g,Delhi,2024-01-01 16:00:00,23.1,0,8,7,clear,68
