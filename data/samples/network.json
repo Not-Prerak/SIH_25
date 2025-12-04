@@ -1,0 +1,168 @@
+{
+  "stations": [
+    {
+      "id": "station_a",
+      "name": "Mumbai Central",
+      "type": "terminal",
+      "latitude": 18.9398,
+      "longitude": 72.8355,
+      "platform_count": 8,
+      "crossing_capacity": 2,
+      "distance_from_start": 0,
+      "operational": true
+    },
+    {
+      "id": "station_b",
+      "name": "Surat",
+      "type": "junction",
+      "latitude": 21.1702,
+      "longitude": 72.8311,
+      "platform_count": 6,
+      "crossing_capacity": 3,
+      "distance_from_start": 250,
+      "operational": true
+    },
+    {
+      "id": "station_c",
+      "name": "Vadodara",
+      "type": "junction",
+      "latitude": 22.3072,
+      "longitude": 73.1812,
+      "platform_count": 7,
+      "crossing_capacity": 3,
+      "distance_from_start": 390,
+      "operational": true
+    },
+    {
+      "id": "station_d",
+      "name": "Ahmedabad",
+      "type": "terminal",
+      "latitude": 23.0225,
+      "longitude": 72.5714,
+      "platform_count": 10,
+      "crossing_capacity": 4,
+      "distance_from_start": 470,
+      "operational": true
+    },
+    {
+      "id": "station_e",
+      "name": "Ratlam",
+      "type": "junction",
+      "latitude": 23.3343,
+      "longitude": 75.0376,
+      "platform_count": 5,
+      "crossing_capacity": 2,
+      "distance_from_start": 630,
+      "operational": true
+    },
+    {
+      "id": "station_f",
+      "name": "Kota",
+      "type": "crossing",
+      "latitude": 25.2138,
+      "longitude": 75.8648,
+      "platform_count": 6,
+      "crossing_capacity": 3,
+      "distance_from_start": 820,
+      "operational": true
+    },
+    {
+      "id": "station_g",
+      "name": "Delhi",
+      "type": "terminal",
+      "latitude": 28.6619,
+      "longitude": 77.2274,
+      "platform_count": 16,
+      "crossing_capacity": 6,
+      "distance_from_start": 1384,
+      "operational": true
+    }
+  ],
+  "track_segments": [
+    {
+      "id": "segment_ab",
+      "from_station": "station_a",
+      "to_station": "station_b",
+      "length_km": 250,
+      "travel_time_minutes": 150,
+      "max_speed_kmph": 130,
+      "min_headway_minutes": 5,
+      "is_double_track": true,
+      "gradient_percent": 0.5,
+      "curvature_degrees": 15,
+      "signals": [
+        {"position_km": 50, "type": "absolute"},
+        {"position_km": 150, "type": "absolute"}
+      ]
+    },
+    {
+      "id": "segment_bc",
+      "from_station": "station_b",
+      "to_station": "station_c",
+      "length_km": 140,
+      "travel_time_minutes": 85,
+      "max_speed_kmph": 120,
+      "min_headway_minutes": 5,
+      "is_double_track": true,
+      "gradient_percent": 0.3,
+      "curvature_degrees": 10
+    },
+    {
+      "id": "segment_cd",
+      "from_station": "station_c",
+      "to_station": "station_d",
+      "length_km": 80,
+      "travel_time_minutes": 50,
+      "max_speed_kmph": 110,
+      "min_headway_minutes": 4,
+      "is_double_track": true,
+      "gradient_percent": 0.2,
+      "curvature_degrees": 8
+    },
+    {
+      "id": "segment_de",
+      "from_station": "station_d",
+      "to_station": "station_e",
+      "length_km": 160,
+      "travel_time_minutes": 100,
+      "max_speed_kmph": 120,
+      "min_headway_minutes": 5,
+      "is_double_track": false,
+      "gradient_percent": 1.2,
+      "curvature_degrees": 25
+    },
+    {
+      "id": "segment_ef",
+      "from_station": "station_e",
+      "to_station": "station_f",
+      "length_km": 190,
+      "travel_time_minutes": 120,
+      "max_speed_kmph": 110,
+      "min_headway_minutes": 5,
+      "is_double_track": false,
+      "gradient_percent": 0.8,
+      "curvature_degrees": 20
+    },
+    {
+      "id": "segment_fg",
+      "from_station": "station_f",
+      "to_station": "station_g",
+      "length_km": 564,
+      "travel_time_minutes": 340,
+      "max_speed_kmph": 130,
+      "min_headway_minutes": 6,
+      "is_double_track": true,
+      "gradient_percent": 0.4,
+      "curvature_degrees": 12
+    }
+  ],
+  "crossing_stations": ["station_b", "station_c", "station_e", "station_f"],
+  "maintenance_blocks": [
+    {
+      "segment_id": "segment_de",
+      "start_time": "2024-01-15T22:00:00",
+      "end_time": "2024-01-16T04:00:00",
+      "type": "night_block"
+    }
+  ]
+}
